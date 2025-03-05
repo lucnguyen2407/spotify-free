@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import AuthProvider from "@/providers/AuthProvider";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Spotify Clone - Next.js",
